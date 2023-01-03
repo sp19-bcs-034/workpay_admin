@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import Avatar from '@mui/material/Avatar';
+import StarIcon from '@mui/icons-material/Star';
 // import Table from "@mui/material/Table";
 // import TableBody from "@mui/material/TableBody";
 // import TableCell from "@mui/material/TableCell";
@@ -24,7 +27,7 @@ const Auth = () => {
             </Link> */}
           </div>
           <div className="item">
-             <Link to="/auth?show=true" style={{ textDecoration: "none" }}>
+             <Link to="/auth?show=azad" style={{ textDecoration: "none" }}>
             <span className='asadd'>VERIFY ID</span>
             </Link>
           </div>
@@ -36,22 +39,57 @@ const Auth = () => {
             
           </div> */}
           </div>
-          { keyValue==='true' &&(
-          <div className='cnic' style={{backgroundColor:"#fffddd",minHeight:'180px'}}>
-<div className='imgDiv' style={{ backgroundImage: `url("${TestImg}")`,
- width:'100px',height:"100px"}}>
-  <img className='img' src={TestImg} alt="" srcset="" />
-</div>
-            </div>)
-}
+          { keyValue==='azad' &&(
+          <Link className="productCard11" to={`/product/${1}`}>
+          <img src="https://images.unsplash.com/photo-1619183744799-68f1fd8f1edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmslMjBkZXNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="nothing"style={{width: "18rem"}} />
+          <div className="product-person">
+            <Avatar src='./Profile.png' />
+            <p>Strassencobra</p>
+          </div>
+          <p >I will develop complete software or web applications</p>
+          <div>
+            <span className="productCardSpan">
+              <StarIcon style={{ color: 'orange' }} />
+              <span>4.9</span> (123)
+    
+            </span>
+          </div>
+          <div className="line"></div>
+    
+          <div className='price-container'>
+            
+            <FavoriteIcon style={{color:'grey'}}/>
+            <span className="price">{`$${500}`}</span>
+          </div>
+       </Link>
+       
+)}
 { keyValue==='true' &&(
-          <div className='cnic' style={{backgroundColor:"#fffddd",minHeight:'180px'}}>
-<div className='imgDiv' style={{ backgroundImage: `url("${TestImg}")`,
- width:'100px',height:"100px"}}>
-  <img className='img' src={TestImgg} alt="" srcset="" />
-</div>
-            </div>)
-}
+          <Link className="productCard22" to={`/product/${1}`}>
+          <img src="https://images.unsplash.com/photo-1619183744799-68f1fd8f1edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmslMjBkZXNrfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="nothing"style={{width: "18rem"}} />
+          <div className="product-person">
+            <Avatar src='./Profile.png' />
+            <p>Strassencobra</p>
+          </div>
+          <p >I will develop complete software or web applications</p>
+          <div>
+            <span className="productCardSpan">
+              <StarIcon style={{ color: 'orange' }} />
+              <span>4.9</span> (123)
+    
+            </span>
+          </div>
+          <div className="line"></div>
+    
+          <div className='price-container'>
+            
+            <FavoriteIcon style={{color:'grey'}}/>
+            <span className="price">{`$${500}`}</span>
+          </div>
+       </Link>
+)}
           </div>
   )
 }
