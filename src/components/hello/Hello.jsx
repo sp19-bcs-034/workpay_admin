@@ -80,8 +80,8 @@ const Hello = () => {
                   <Avatar src='./Profile.png' />
                   <div className='btn-flex'>
 
-                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Block</a>
-                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Unblock</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Approve</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Disapprove</a>
 
                   </div>
                 </div>}
@@ -109,6 +109,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Approve</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Disapprove</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -132,6 +138,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Approve</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Disapprove</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -155,6 +167,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Approve</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Disapprove</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -178,11 +196,11 @@ const Hello = () => {
 
 
 
-              <div className='d-flex flex-row btn-flex'>
+              {/* <div className='d-flex flex-row btn-flex'>
 
                 <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary btn-change">Approve</a>
                 <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary btn-change">Disapprove</a>
-              </div>
+              </div> */}
             </div>
           </div>)
         }
@@ -196,6 +214,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Block</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Unblock</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -219,6 +243,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Block</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Unblock</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -242,6 +272,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Block</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Unblock</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
@@ -265,6 +301,12 @@ const Hello = () => {
                   alt="nothing" style={{ width: "18rem" }} />
                 <div className="product-person">
                   <Avatar src='./Profile.png' />
+                  <div className='btn-flex'>
+
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Block</a>
+                    <a href="#" onClick={() => setModalShow(true)} className="btn btn-primary">Unblock</a>
+
+                  </div>
                   <p>Strassencobra</p>
                 </div>
                 <p >I will develop complete software or web applications</p>
